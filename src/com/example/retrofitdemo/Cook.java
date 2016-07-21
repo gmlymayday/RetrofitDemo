@@ -2,32 +2,29 @@ package com.example.retrofitdemo;
 
 import com.google.gson.annotations.SerializedName;
 
-/**
- * ²ËÆ× Created by ÄÏ³¾ on 16-7-15.
- */
 public class Cook {
 	@SerializedName("id")
 	private int id;
 	@SerializedName("name")
-	private String name;// Ãû³Æ
+	private String name;// åç§°
 	@SerializedName("food")
-	private String food;// Ê³Îï
+	private String food;// é£Ÿç‰©
 	@SerializedName("img")
-	private String img;// Í¼Æ¬
+	private String img;// å›¾ç‰‡
 	@SerializedName("images")
-	private String images;// Í¼Æ¬,
+	private String images;// å›¾ç‰‡,
 	@SerializedName("description")
-	private String description;// ÃèÊö
+	private String description;// æè¿°
 	@SerializedName("keywords")
-	private String keywords;// ¹Ø¼ü×Ö
+	private String keywords;// å…³é”®å­—
 	@SerializedName("message")
-	private String message;// ×ÊÑ¶ÄÚÈİ
+	private String message;// èµ„è®¯å†…å®¹
 	@SerializedName("count")
-	private int count;// ·ÃÎÊ´ÎÊı
+	private int count;// è®¿é—®æ¬¡æ•°
 	@SerializedName("fcount")
-	private int fcount;// ÊÕ²ØÊı
+	private int fcount;// æ”¶è—æ•°
 	@SerializedName("rcount")
-	private int rcount;// ÆÀÂÛ¶ÁÊı
+	private int rcount;// è¯„è®ºè¯»æ•°
 
 	public int getId() {
 		return id;

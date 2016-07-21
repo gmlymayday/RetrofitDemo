@@ -5,7 +5,6 @@ import java.util.List;
 import com.google.gson.annotations.SerializedName;
 
 public class Tngou {
-	// ╪сиов╒╫Б
 	@SerializedName("status")
 	private boolean status;
 	@SerializedName("total")

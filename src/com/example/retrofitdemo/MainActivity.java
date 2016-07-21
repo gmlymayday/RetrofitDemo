@@ -52,7 +52,7 @@ public class MainActivity extends Activity implements Callback<Tngou>,
 	public void onItemClick(AdapterView<?> parent, View view, int position,
 			long id) {
 		Intent intent = new Intent(this, DetailActivity.class);
-		intent.putExtra("id", list.get(position).getId()+"");
+		intent.putExtra("id", list.get(position).getId() + "");
 		startActivity(intent);
 	}
 }

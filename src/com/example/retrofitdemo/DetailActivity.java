@@ -8,7 +8,6 @@ import retrofit.Retrofit;
 import android.app.Activity;
 import android.os.Bundle;
 import android.text.Html;
-import android.text.Spannable;
 import android.text.Spanned;
 import android.widget.TextView;
 
